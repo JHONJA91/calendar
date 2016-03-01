@@ -1,18 +1,21 @@
+<%-- 
+    Document   : index
+    Created on : 1/03/2016, 11:27:58 AM
+    Author     : PC 5
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/EstilosCalendar.css" rel="stylesheet">  
+        <title>JSP Page</title>
     </head>
     <body>
-        <form name="calendar" action="ControllerServlet" method="POST">
-          Choose one month: <select name="month">
+         <%@include file="WEB-INF/jspf/banner.jspf"%>  
+         <form name="calendar" action="ControllerServlet" method="POST">
+             <label>Choose one month:</label> <select id="list" name="month">
               <option value="January">January </option>
                 <option value="February">February</option>
                 <option value="March">March</option>
@@ -26,9 +29,7 @@ and open the template in the editor.
                 <option value="November">November</option>
                 <option value="December">December</option>
             </select>
-          <br>
-          <input type="submit" value="Seend"/>
+             <input class="btn" type="submit" value="Seend"/>
         </form>
-        
     </body>
 </html>

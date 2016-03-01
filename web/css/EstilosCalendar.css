@@ -1,0 +1,79 @@
+#divCalendar{
+     background-image: url(../img/bn.jpg);
+    //border: 5px;
+    margin-top: 0px;
+    width: 95%; 
+    height: 200px;
+    margin: auto;
+    //background: #daf5cc;
+    text-align: center;
+}
+
+#divCalendar:hover{
+    
+}
+
+#list{
+    border-radius: 5px;
+    width: auto;
+    background: #95bbe1;
+    font-size: 20px;
+    
+}
+form{
+    width: 30%;
+    margin: auto;
+}
+
+tr{
+    
+    height:50px; 
+    font-size: 30px;
+    text-align: center;
+}
+td:hover{
+    background: #d8e2eb;
+    font-size: 40px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 2px 5px #575757;
+  -moz-box-shadow: 4px 2px 5px #575757;
+  box-shadow: 4px 2px 5px #575757;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 17px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 1px;
+  
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+ .btn:active {
+   background: #ffffff;
+   color: #797979;
+   }

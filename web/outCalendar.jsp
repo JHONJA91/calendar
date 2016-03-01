@@ -11,10 +11,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/EstilosCalendar.css" rel="stylesheet">  
         <title>Calendar</title>
     </head>
     <body>
-        
+      <%@include file="WEB-INF/jspf/banner.jspf"%>  
+      <center>
+          <h1>
     <% int day=0;%>   
     <c:choose>
         <c:when test="${param.month == 'January'}">
@@ -69,7 +72,7 @@
             Error en los datos!!!!!!
         </c:otherwise>
     </c:choose>
-    
+    </h1>
     <table>
         <thead>
         <th>Sabado</th>
@@ -94,6 +97,6 @@
              
 </tbody>
     </table>
-     
+     </center>
     </body>
 </html>
