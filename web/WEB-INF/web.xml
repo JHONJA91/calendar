@@ -10,7 +10,7 @@
         <web-resource-collection>
             <web-resource-name>Admin Calendar</web-resource-name>
             <description/>
-            <url-pattern>/*</url-pattern>
+            <url-pattern>/ControllerServlet</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <description/>
