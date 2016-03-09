@@ -4,5 +4,13 @@
 
 
 <div id="divCalendar">
-            <h1>Wellcomoe to my Page Of Calendar 2016</h1>            
+    <br>
+    <p style="color: #fd9d29;">Wellcomoe to my Page</p>            
+    <h2 style="color: #fd9d29;">CALENDAR JEE</h2>            
+    <p style="color: #fd9d29;">Jhon Jairo Hernandez<br>
+        jhonja91@hotmail.com<br>
+        Electiva II<br>
+        Semestre: VIII
+    </p>            
+    
      </div>       

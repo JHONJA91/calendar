@@ -14,9 +14,10 @@
     </head>
     <body>
          <%@include file="WEB-INF/jspf/banner.jspf"%>  
-         <form name="calendar" action="ControllerServlet" method="POST">
-             <label>Choose one month:</label> <select id="list" name="month">
-              <option value="January">January </option>
+         <form name="calendar" action="ControllerServlet" method="POST" style="margin-top: 100px;">
+             <select id="list" name="month">
+                 <option>Choose one month</option>
+              <option value="January">January</option>
                 <option value="February">February</option>
                 <option value="March">March</option>
                 <option value="April">April</option>

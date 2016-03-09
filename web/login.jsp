@@ -14,11 +14,13 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/banner.jspf"%>
-        <h1>Enter your login & Password</h1>
+    <center>
         <form action="j_security_check" method="post"/>
-        Login:   <input type="text" name="j_username" required/><br>
-        Password:   <input type="password" name="j_password" requiered/><br>
-        <input type="submit" value="Login"/>
+        <h2>Login...</h2>
+        <input type="text" name="j_username" required="" placeholder="Enter your User"/><br>
+        <input type="password" name="j_password" requiered="" placeholder="Enter your Password"/><br>
+        <input class="btn"type="submit" value="Login"/>
         </form>
+        </center>
     </body>
 </html>

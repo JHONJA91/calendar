@@ -1,16 +1,22 @@
+body{
+    background: #e2e2e2;
+}
 #divCalendar{
-     background-image: url(../img/bn.jpg);
-    //border: 5px;
+     background-image: url(../img/bn.png);
     margin-top: 0px;
     width: 95%; 
     height: 200px;
-    margin: auto;
-    //background: #daf5cc;
-    text-align: center;
+    margin: auto;    
+    text-align: left;
+    padding-left: 10px;
+   
 }
 
 #divCalendar:hover{
-    
+    background-image: url(../img/bn2.jpg);
+     transition: all 3s ease;
+     transition-delay: 1s;
+     
 }
 
 #list{
@@ -36,6 +42,12 @@ td:hover{
     font-size: 40px;
     border-radius: 50px;
     transition: all 0.5s ease;
+}
+th{
+    width: 110px;
+    background: #d3cccc;
+    font-size: 20px;
+    border-radius: 20px;
 }
 
 .btn {
@@ -76,4 +88,17 @@ td:hover{
  .btn:active {
    background: #ffffff;
    color: #797979;
+   }
+   input{
+       border:solid #010101 1px;
+       border-radius: 5px;
+       font-size: 20px;
+       /*background: #bedaf4;*/
+       margin-top: 20px;
+       text-align: center;
+   }
+   #month{
+       letter-spacing: 10px;
+       font-size: 40px;
+       box-shadow: 10px 10px 10px 5px #9fa4a4;
    }

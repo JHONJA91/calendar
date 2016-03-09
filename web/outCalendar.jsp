@@ -17,7 +17,7 @@
     <body>
       <%@include file="WEB-INF/jspf/banner.jspf"%>  
       <center>
-          <h1>
+          <h1 id="month">
     <% int day=0;%>   
     <c:choose>
         <c:when test="${param.month == 'January'}">
@@ -75,13 +75,13 @@
     </h1>
     <table>
         <thead>
-        <th>Sabado</th>
-        <th>Domingo</th>
-        <th>Lunes</th>
-        <th>Martes</th>
-        <th>Miercoles</th>
-        <th>Jueves</th>
-        <th>Viernes</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
         </thead>
         <tbody>            
             
@@ -92,11 +92,12 @@
                 out.println("<td>"+i+"</td>");
                 if(i%7==0) out.println("</tr><tr>");                                 
             } 
-        
+            out.println("</tr>");  
         %>
              
 </tbody>
     </table>
+        <a href="index.jsp">Select Other Month</a>
      </center>
     </body>
 </html>
